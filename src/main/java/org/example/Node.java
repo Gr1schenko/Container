@@ -3,7 +3,7 @@ package org.example;
 /**
  * Класс, описывающий простой список
  * @param <T> тип элементов в списке
- * @author Yuliya Grischenko <Yuliya-280504@mail.ru>
+ * @author Yuliya Grischenko
  * @version 1.0-SNAPSHOT
  * @see MyList
  */
@@ -44,8 +44,8 @@ public class Node<T> {
     }
 
     /**
-     * Метод добавления следующего элемента списка
-     * @param next следующий узел
+     * Метод добавления следующего элемента в список
+     * @param next добавляемый узел
      */
     public void setNext(Node<T> next) {
         this.next = next;

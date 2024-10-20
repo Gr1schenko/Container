@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 /**
  * Класс, описывающий контейнер
  * @param <T> тип элементов в контейнере
- * @author Yuliya Grischenko <Yuliya-280504@mail.ru>
+ * @author Yuliya Grischenko
  * @version 1.0-SNAPSHOT
  * @see Node
  */
@@ -112,7 +112,7 @@ public class MyList <T> {
     /**
      * Итератор для перебора элементов списка, поддерживающий
      * стандартные операции итерации, такие как hasNext() и next()
-     * @return объект типа Iterator<T>, позволяющий осуществлять перебор элементов списка
+     * @return объект, позволяющий осуществлять перебор элементов списка
      */
     public Iterator<T> iterator() {
         return new Iterator<T>() {
